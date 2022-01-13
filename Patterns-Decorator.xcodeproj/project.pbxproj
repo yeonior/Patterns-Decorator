@@ -14,6 +14,7 @@
 		A2940EA427909D01000A9F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2940EA327909D01000A9F79 /* Assets.xcassets */; };
 		A2940EA727909D01000A9F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2940EA527909D01000A9F79 /* LaunchScreen.storyboard */; };
 		A2940EAF2790AA52000A9F79 /* GolfProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2940EAE2790AA52000A9F79 /* GolfProtocol.swift */; };
+		A2940EB12790AAE9000A9F79 /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2940EB02790AAE9000A9F79 /* Golf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A2940EA627909D01000A9F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2940EA827909D01000A9F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2940EAE2790AA52000A9F79 /* GolfProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfProtocol.swift; sourceTree = "<group>"; };
+		A2940EB02790AAE9000A9F79 /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 			children = (
 				A2940E9A27909D00000A9F79 /* AppDelegate.swift */,
 				A2940E9C27909D00000A9F79 /* SceneDelegate.swift */,
-				A2940EAE2790AA52000A9F79 /* GolfProtocol.swift */,
+				A2940EB22790AB88000A9F79 /* Car */,
 				A2940E9E27909D00000A9F79 /* ViewController.swift */,
 				A2940EA027909D00000A9F79 /* Main.storyboard */,
 				A2940EA327909D01000A9F79 /* Assets.xcassets */,
@@ -68,6 +70,15 @@
 				A2940EA827909D01000A9F79 /* Info.plist */,
 			);
 			path = "Patterns-Decorator";
+			sourceTree = "<group>";
+		};
+		A2940EB22790AB88000A9F79 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				A2940EAE2790AA52000A9F79 /* GolfProtocol.swift */,
+				A2940EB02790AAE9000A9F79 /* Golf.swift */,
+			);
+			path = Car;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			files = (
 				A2940E9F27909D00000A9F79 /* ViewController.swift in Sources */,
 				A2940E9B27909D00000A9F79 /* AppDelegate.swift in Sources */,
+				A2940EB12790AAE9000A9F79 /* Golf.swift in Sources */,
 				A2940E9D27909D00000A9F79 /* SceneDelegate.swift in Sources */,
 				A2940EAF2790AA52000A9F79 /* GolfProtocol.swift in Sources */,
 			);
