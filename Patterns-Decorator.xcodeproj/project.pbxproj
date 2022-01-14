@@ -17,6 +17,7 @@
 		A2940EB12790AAE9000A9F79 /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2940EB02790AAE9000A9F79 /* Golf.swift */; };
 		A2940EB42790ABE5000A9F79 /* GolfDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2940EB32790ABE5000A9F79 /* GolfDecorator.swift */; };
 		A2C73D242791BEE0000C51E8 /* LifeGolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C73D232791BEE0000C51E8 /* LifeGolf.swift */; };
+		A2C73D262791C116000C51E8 /* StyleGolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C73D252791C116000C51E8 /* StyleGolf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A2940EB02790AAE9000A9F79 /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
 		A2940EB32790ABE5000A9F79 /* GolfDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfDecorator.swift; sourceTree = "<group>"; };
 		A2C73D232791BEE0000C51E8 /* LifeGolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGolf.swift; sourceTree = "<group>"; };
+		A2C73D252791C116000C51E8 /* StyleGolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGolf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				A2940EB32790ABE5000A9F79 /* GolfDecorator.swift */,
 				A2C73D232791BEE0000C51E8 /* LifeGolf.swift */,
+				A2C73D252791C116000C51E8 /* StyleGolf.swift */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				A2C73D242791BEE0000C51E8 /* LifeGolf.swift in Sources */,
 				A2940E9F27909D00000A9F79 /* ViewController.swift in Sources */,
 				A2940E9B27909D00000A9F79 /* AppDelegate.swift in Sources */,
+				A2C73D262791C116000C51E8 /* StyleGolf.swift in Sources */,
 				A2940EB12790AAE9000A9F79 /* Golf.swift in Sources */,
 				A2940E9D27909D00000A9F79 /* SceneDelegate.swift in Sources */,
 				A2940EAF2790AA52000A9F79 /* GolfProtocol.swift in Sources */,
