@@ -14,10 +14,10 @@ class RLineGolf: GolfDecorator {
     }
     
     override func getTitle() -> String {
-        super.getTitle() + "" + "R-Line"
+        super.getTitle() + " " + "R-Line"
     }
     
     override func getPrice() -> Double {
-        super.getPrice() + 9000.0
+        super.getPrice() + 36000.0
     }
 }

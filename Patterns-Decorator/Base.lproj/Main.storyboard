@@ -17,18 +17,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Hf0-if-Rxw">
-                                <rect key="frame" x="40" y="244" width="334" height="101"/>
+                                <rect key="frame" x="40" y="224" width="334" height="101"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Mte-yb-4Q4">
                                         <rect key="frame" x="85" y="0.0" width="164" height="33"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFp-kY-pMy">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFp-kY-pMy">
                                                 <rect key="frame" x="0.0" y="0.0" width="72" height="33"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYa-x4-D8f">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYa-x4-D8f">
                                                 <rect key="frame" x="92" y="0.0" width="72" height="33"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                                 <nil key="textColor"/>
@@ -36,15 +36,15 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTG-w3-Yyh">
-                                        <rect key="frame" x="140" y="68" width="54.5" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="trim level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTG-w3-Yyh">
+                                        <rect key="frame" x="110.5" y="68" width="113" height="33"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life_version" translatesAutoresizingMaskIntoConstraints="NO" id="Ud1-nx-OPn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="Ud1-nx-OPn">
                                 <rect key="frame" x="40" y="355" width="334" height="186"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ud1-nx-OPn" secondAttribute="height" multiplier="167:93" id="GcJ-fw-QHy"/>
@@ -58,7 +58,7 @@
                                     <segment title="R-Line"/>
                                 </segments>
                                 <connections>
-                                    <action selector="typeSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="Vc0-0B-3ip"/>
+                                    <action selector="trimLevelSegmentedControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="6eN-1p-IwU"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
@@ -72,15 +72,17 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cua-Rc-g5Z" secondAttribute="trailing" constant="40" id="Xv0-vM-nl8"/>
                             <constraint firstItem="Hf0-if-Rxw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Yum-Jz-zLg"/>
                             <constraint firstItem="Ud1-nx-OPn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="esI-Hl-Tjo"/>
-                            <constraint firstItem="Hf0-if-Rxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="oYN-5S-GIN"/>
+                            <constraint firstItem="Hf0-if-Rxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="oYN-5S-GIN"/>
                             <constraint firstItem="Ud1-nx-OPn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="qKe-HE-6Yg"/>
                             <constraint firstItem="Cua-Rc-g5Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="qpz-b7-xa9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hf0-if-Rxw" secondAttribute="trailing" constant="40" id="yC7-1k-wuU"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="carImageView" destination="Ud1-nx-OPn" id="Lfw-zV-xVW"/>
                         <outlet property="priceLabel" destination="KYa-x4-D8f" id="LPT-P9-Zdz"/>
-                        <outlet property="typeLabel" destination="mTG-w3-Yyh" id="I71-we-Na3"/>
+                        <outlet property="trimLevelLabel" destination="mTG-w3-Yyh" id="I71-we-Na3"/>
+                        <outlet property="trimLevelSegmentedControl" destination="Cua-Rc-g5Z" id="FRU-d3-koJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -89,7 +91,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="life_version" width="648" height="277"/>
+        <image name="default" width="450" height="338"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

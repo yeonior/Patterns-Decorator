@@ -14,10 +14,10 @@ class LifeGolf: GolfDecorator {
     }
     
     override func getTitle() -> String {
-        super.getTitle() + "" + "Life"
+        super.getTitle() + " " + "Life"
     }
     
     override func getPrice() -> Double {
-        super.getPrice() + 4000.0
+        super.getPrice() + 31000.0
     }
 }

@@ -14,6 +14,6 @@ class Golf: GolfProtocol {
     }
     
     func getPrice() -> Double {
-        27000.0
+        0.0
     }
 }
