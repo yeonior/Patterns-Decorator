@@ -10,10 +10,10 @@ import Foundation
 class Golf: GolfProtocol {
     
     func getTitle() -> String {
-        "Golf 8 Life"
+        "Golf 8"
     }
     
     func getPrice() -> Double {
-        20000.0
+        27000.0
     }
 }

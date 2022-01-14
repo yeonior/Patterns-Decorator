@@ -15,6 +15,8 @@
 		A2940EA727909D01000A9F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2940EA527909D01000A9F79 /* LaunchScreen.storyboard */; };
 		A2940EAF2790AA52000A9F79 /* GolfProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2940EAE2790AA52000A9F79 /* GolfProtocol.swift */; };
 		A2940EB12790AAE9000A9F79 /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2940EB02790AAE9000A9F79 /* Golf.swift */; };
+		A2940EB42790ABE5000A9F79 /* GolfDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2940EB32790ABE5000A9F79 /* GolfDecorator.swift */; };
+		A2C73D242791BEE0000C51E8 /* LifeGolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C73D232791BEE0000C51E8 /* LifeGolf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A2940EA827909D01000A9F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2940EAE2790AA52000A9F79 /* GolfProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfProtocol.swift; sourceTree = "<group>"; };
 		A2940EB02790AAE9000A9F79 /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
+		A2940EB32790ABE5000A9F79 /* GolfDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfDecorator.swift; sourceTree = "<group>"; };
+		A2C73D232791BEE0000C51E8 /* LifeGolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGolf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			children = (
 				A2940E9A27909D00000A9F79 /* AppDelegate.swift */,
 				A2940E9C27909D00000A9F79 /* SceneDelegate.swift */,
+				A2940EB52790ABE9000A9F79 /* Decorator */,
 				A2940EB22790AB88000A9F79 /* Car */,
 				A2940E9E27909D00000A9F79 /* ViewController.swift */,
 				A2940EA027909D00000A9F79 /* Main.storyboard */,
@@ -79,6 +84,15 @@
 				A2940EB02790AAE9000A9F79 /* Golf.swift */,
 			);
 			path = Car;
+			sourceTree = "<group>";
+		};
+		A2940EB52790ABE9000A9F79 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				A2940EB32790ABE5000A9F79 /* GolfDecorator.swift */,
+				A2C73D232791BEE0000C51E8 /* LifeGolf.swift */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,11 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C73D242791BEE0000C51E8 /* LifeGolf.swift in Sources */,
 				A2940E9F27909D00000A9F79 /* ViewController.swift in Sources */,
 				A2940E9B27909D00000A9F79 /* AppDelegate.swift in Sources */,
 				A2940EB12790AAE9000A9F79 /* Golf.swift in Sources */,
 				A2940E9D27909D00000A9F79 /* SceneDelegate.swift in Sources */,
 				A2940EAF2790AA52000A9F79 /* GolfProtocol.swift in Sources */,
+				A2940EB42790ABE5000A9F79 /* GolfDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
