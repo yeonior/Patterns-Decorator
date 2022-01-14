@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Golf: GolfProtocol {
+final class Golf: GolfProtocol {
     
     func getTitle() -> String {
         "Golf 8"
